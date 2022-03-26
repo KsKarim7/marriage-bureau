@@ -1,8 +1,11 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHeart  } from '@fortawesome/free-solid-svg-icons'
 import React from 'react';
 import './Bride.css'
 
 const Bride = (props) => {
     const {name, price, id, img, age} = props.bride;
+    
     return (
         <div className='mainBody'>
             <img src={img} alt="" />
@@ -12,8 +15,9 @@ const Bride = (props) => {
             <p>Age: {age}</p>
             <p>Price (agency charge): ${price}</p>
             </div>
-            <button className='btn-section'>
+            <button onClick={() => props.handleClick(props.bride)} className='btn-section'>
                 <p className='btn-text'>Like</p>
+                <FontAwesomeIcon icon={faHeart}></FontAwesomeIcon>
             </button>
         </div>
         

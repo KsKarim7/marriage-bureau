@@ -6,13 +6,18 @@ import './Brides.css'
 
 const Brides = () => {
     const [brides, setBrides] = useState([]);
-
+    
     useEffect( () => {
         fetch('data.json')
         .then(res => res.json())
         .then(data => setBrides(data))
 
-    }, [] )
+    }, [] );
+
+    const handleClick = (bride) =>{
+        console.log(bride);
+    }
+
     return (
         <div className='container'>
             <div className='bride-container'>
@@ -20,6 +25,7 @@ const Brides = () => {
                 brides.map(bride => <Bride 
                     key ={bride.id}
                     bride ={bride}
+                    handleClick={handleClick}
                     ></Bride>)
             }
             </div>
