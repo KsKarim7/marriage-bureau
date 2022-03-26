@@ -20,7 +20,7 @@ const Banner = (props) => {
             <ol>
                 {
                     
-                    banner.map(item => <ol>{item?.name}</ol>  )
+                    banner.map(item => <ol key={item.id}>{item?.name}</ol>  )
                 }
             </ol>
             <button className='button-section'><h2>CHOOSE 1 FOR ME</h2></button>
