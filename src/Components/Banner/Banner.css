@@ -1,0 +1,16 @@
+.banner {
+    text-align: center;
+}
+
+.button-section {
+    width: 70%;
+    background-color: rgb(233, 192, 205);
+    border-radius: 10px;
+    border: 2px solid rgb(235, 161, 173);
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+.button-section:hover {
+    background-color: plum;
+}

@@ -1,0 +1,66 @@
+[
+    {
+      "id": "623e",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeLih_d912P5U2ZPpYlQyMUzxWZmWcBt3kgA&usqp=CAU",
+      "price": 567,
+      "name": "Momina Mustehsan",
+      "age": 26
+    },
+    {
+      "id": "423e",
+      "img": "https://www.thewikifeed.com/wp-content/uploads/2021/08/katrina-kaif-1.jpg",
+      "price": 626,
+      "name": "Katrina Kaif",
+      "age": 27
+    },
+    {
+      "id": "7238e",
+      "img": "https://www.daily-bangladesh.com/media/imgAll/2020June/en/Opi-Karim-2012281455.jpg?fbclid=IwAR0frpANSmx8NYlvqJJKWAAz1EcjTOMca9TEXSPmq8igPGkF-8Nj0Rhn0o0",
+      "price": 829,
+      "name": "Aupee karim",
+      "age": 29
+    },
+    {
+      "id": "693e",
+      "img": "https://static.independent.co.uk/2021/10/04/18/Britain_No_Time_To_Die_World_Premiere_15169.jpg?quality=75&width=640&auto=webp&fbclid=IwAR3y5oRMnilrrZ6IGMccDqKtBY_PtegNhlZ-o578T0s0wRgCBNLvwRuMA90",
+      "price":667,
+      "name": "Billie Eilish",
+      "age": 26
+    },
+    {
+      "id": "456e",
+      "img": "https://ichef.bbci.co.uk/news/976/cpsprodpb/EB8D/production/_85910306_afp_watson.jpg?fbclid=IwAR1krDSN4hu2fT5qEOtA9CwDRh-DwgY7J8NQnw2SPwNZdFxJbI6h-jW7uRY",
+      "price": 623,
+      "name": "Emma Watson",
+      "age": 23
+    },
+    {
+      "id": "789e",
+      "img": "https://qph.fs.quoracdn.net/main-qimg-d5837cfc3608981dd5c5a1c614dec157-lq?fbclid=IwAR3bOGi0S5CBegd6p-WciVOBa2pFdxLSufx3dwiF8e1jwz2Bq_A6pgDyNCc",
+      "price": 828,
+      "name": "Alexandra Daddario",
+      "age": 25
+    },
+    {
+      "id": "923e",
+      "img": "https://cdn.vox-cdn.com/thumbor/8Vffc9taulsdPgPHyG28JvFf7s0=/0x0:2048x1280/1400x1400/filters:focal(883x142:1209x468):format(jpeg)/cdn.vox-cdn.com/uploads/chorus_image/image/55016747/2017_The_Wonder_Woman_Gal_Gadot_wide.0.jpg?fbclid=IwAR3KWe-z849Ry-VzzbHJr4yWaw2g4d8Hw4tV_lwgeobjCIcKHRp-ssHxFwY",
+      "price": 429,
+      "name": "Diana Prince",
+      "age": 28
+    },
+    {
+      "id": "567e",
+      "img": "https://media.allure.com/photos/6217d4b5d7fd23bfa54bc42b/1:1/w_2376,h_2376,c_limit/kendall%20jenner%20hair.jpg?fbclid=IwAR3cwlduJQaRWaAj1dAlSHq_xi_QhC-sfWzbj9H_E2mHTNFAQBV3W8u2wRk",
+      "price": 925,
+      "name": "Kendall Jenner",
+      "age": 24
+    },
+    {
+      "id": "123e",
+      "img": "https://media.glamourmagazine.co.uk/photos/6229d8e4de32fdda62f3550b/16:9/w_2560%2Cc_limit/KATY%2520PERRY%2520FIREWORK%2520100322%2520GettyImages-1166857942a.jpg?fbclid=IwAR334GCUv1udRue_sGzM-nRgyvqf28NmnD17D_Lmfg7mUpOSpT2TAfy4g-w",
+      "price": 725,
+      "name": "Katy Perry",
+      "age": 27
+
+    }
+  ]
