@@ -6,7 +6,9 @@ import './Brides.css'
 
 const Brides = () => {
     const [brides, setBrides] = useState([]);
-    
+   
+    const [banner, setBanner] = useState([])
+    // console.log(banner)
     useEffect( () => {
         fetch('data.json')
         .then(res => res.json())
@@ -15,7 +17,9 @@ const Brides = () => {
     }, [] );
 
     const handleClick = (bride) =>{
-        console.log(bride);
+        // console.log(bride);
+        const newBanner = [...banner, bride ]
+        setBanner(newBanner);
     }
 
     return (
@@ -31,7 +35,7 @@ const Brides = () => {
             </div>
 
             <div className='banner-container'>
-                <Banner></Banner>
+                <Banner banner={banner}></Banner>
             </div>
         </div>
     );
