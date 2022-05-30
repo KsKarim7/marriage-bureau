@@ -8,7 +8,7 @@ const Brides = () => {
     const [brides, setBrides] = useState([]);
    
     const [banner, setBanner] = useState([])
-    // console.log(banner)
+    console.log(banner)
     useEffect( () => {
         fetch('data.json')
         .then(res => res.json())
@@ -21,21 +21,32 @@ const Brides = () => {
         const newBanner = [...banner, bride ]
         setBanner(newBanner);
     }
-
+    const removeItem = () =>{
+        setBanner([]);
+    }
+    
     return (
         <div className='container'>
             <div className='bride-container'>
-            {
+                <h1>Hello</h1>
+            {/* {
                 brides.map(bride => <Bride 
                     key ={bride.id}
                     bride ={bride}
                     handleClick={handleClick}
+
                     ></Bride>)
-            }
+                    
+            } */}
+            <Banner removeItem={removeItem}></Banner>
             </div>
 
             <div className='banner-container'>
-                <Banner banner={banner}></Banner>
+                
+                {/* {
+                    banner.map(item => <Banner key={item.id} banner={banner}></Banner> )
+                } */}
+                
             </div>
         </div>
     );
